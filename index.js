@@ -4,7 +4,7 @@ const cors = require("cors");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const BROWSERLESS_URL = process.env.BROWSERLESS_URL || "wss://chrome.browserless.io?token=YOUR_API_KEY";
+const BROWSERLESS_URL = process.env.BROWSERLESS_URL || "wss://chrome.browserless.io?token=RoKd4pfXdKzcFQc8f9bdb6951ac9491ac87df95fec";
 
 app.use(cors());
 
